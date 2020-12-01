@@ -29,7 +29,7 @@
 	<servlet>
 		<servlet-name>fhirServlet</servlet-name>
 		<servlet-class>ca.uhn.example.servlet.ExampleRestfulServlet</servlet-class>
-		<!-- <load-on-startup>1</load-on-startup> -->
+		<load-on-startup>1</load-on-startup>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>fhirServlet</servlet-name>
